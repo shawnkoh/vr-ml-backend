@@ -6,10 +6,10 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "3.9.6"
+mlagents = "0.28.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-torch = { url = "https://download.pytorch.org/whl/cpu/torch-1.7.1%2Bcpu-cp39-cp39-win_amd64.whl" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
