@@ -7,6 +7,7 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "3.9.6"
 mlagents = "0.28.0"
+gym-unity = "^0.28.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
