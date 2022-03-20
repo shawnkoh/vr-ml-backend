@@ -5,9 +5,10 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "3.9.6"
+python = "3.7.9"
 mlagents = "0.28.0"
 gym-unity = "^0.28.0"
+torch = "~=1.7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
